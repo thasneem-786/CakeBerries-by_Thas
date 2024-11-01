@@ -1,0 +1,129 @@
+/* 
+   CakeBerries Color Palette 
+   -----------------------
+   #F8E9DD: Light Cream (Background)
+   #D8B6A4: Warm Tan (Accents, Borders)
+   #C08497: Dusty Rose (Headings, Buttons)
+   #A85584: Deep Berry (Active Elements, Highlights)
+   #8A2369: Rich Plum (Footer, Special Text)
+*/
+
+body {
+    font-family: 'Arial', sans-serif; /* Choose a font you like */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #F8E9DD; /* Light Cream Background */
+    color: #333; /* Dark Gray Text */
+  }
+  
+  /* Typography */
+  h2, h3 {
+    color: #C08497; /* Dusty Rose Headings */
+  }
+  
+  h1 {
+    color: #8A2369;
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  /* Links */
+  a {
+    color: #A85584; /* Deep Berry Links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+   /* Header */
+   header {
+    background: linear-gradient(to bottom, #C08497, #D8B6A4); /* Gradient Header */
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center; 
+    /* Background Image */
+    background-image: url("./img/hero-bg_img.webp"); 
+    background-size: cover;        /* Image will cover the entire header */
+    background-position: center;     /* Image will be centered */
+    min-height: 300px;             /* Adjust minimum height as needed */
+  }
+
+
+  header img { /* Targets the <img> tag within the header */
+    width: 100%; /* Make the banner span the full width of the header */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image takes up its own line */
+}
+
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #8A2369;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle Shadow */
+  }
+  
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #C08497; /* Dusty Rose Button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth Transition */
+  }
+  
+  .btn:hover {
+    background-color: #A85584; /* Deep Berry on Hover */
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #8A2369; /* Rich Plum Footer */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* Image Styling */
+  #home img { 
+    width: 250px; /* Image spans container width */
+    max-width: 600px; /* Maximum image width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 2rem auto; /* Center the image */
+    border-radius: 8px;
+  }
