@@ -4,58 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CakeBerries by Thas</title>
-    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to CakeBerries by Thas</h1>
-        <img src="./img/hero-bg_img.webp" alt="hero background image">
-        <nav>
-            <ul>
+    <div class="hero">
+        <nav class="nav">
+            <div class="logo">
+                <h1>CB</h1>
+            </div>
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#story">Our Story</a></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    </header>
-    
-    <main>
-        <section id="home">
-            <h2>Home</h2>
-            <img src="./img/hero-img.webp" alt="Main cake image">
-            <p>Welcome to CakeBerries by Thas, where we offer the most delectable cakes and berries in town!</p>
-        </section>
-        
-        <section id="about">
-            <h2>About</h2>
-            <p>CakeBerries by Thas is a family-owned bakery that has been serving the community with love and passion for over a decade.</p>
-        </section>
-        
-        <section id="menu">
-            <h2>Menu</h2>
-            <p>Check out our delicious menu featuring a variety of cakes and berry delights.</p>
-            <ul>
-                <li>Chocolate Cake</li>
-                <li>Strawberry Shortcake</li>
-                <li>Berry Tart</li>
-                <!-- Add more menu items as needed -->
-            </ul>
-        </section>
-        
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Get in touch with us for orders and inquiries.</p>
-            <address>
-                <p>Email: contact@cakeberries.com</p>
-                <p>Phone: +91-7736281124</p>
-            </address>
-        </section>
-    </main>
-    
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to CakeBerries</h1>
+            <p class="hero-subtitle">We are excited to bake for you today!</p>
+        </div>
+    </div>
+
+    <section id="story" class="story">
+        <div class="story-content">
+            <h2>Our Story</h2>
+            <p>CakeBerries by Thas is a family-owned bakery that has been serving the community with love and passion for over a decade. We specialize in creating the most delectable cakes and incorporating fresh berries into our creations.</p>
+        </div>
+        <div class="story-image">
+            <img src="/api/placeholder/600/400" alt="Our Story" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="menu-header">
+            <h2>Our Sweet Delights</h2>
+        </div>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="/api/placeholder/200/200" alt="Chocolate Cake" style="width: 100%; border-radius: 50%;">
+                <h3>Chocolate Cake</h3>
+                <p>Rich, moist, and absolutely divine</p>
+                <p class="price">₹249*</p>
+            </div>
+            <div class="menu-item">
+                <img src="/api/placeholder/200/200" alt="Strawberry Shortcake" style="width: 100%; border-radius: 50%;">
+                <h3>Strawberry Shortcake</h3>
+                <p>Fresh berries with light cream</p>
+                <p class="price">₹249*</p>
+            </div>
+            <div class="menu-item">
+                <img src="/api/placeholder/200/200" alt="Berry Tart" style="width: 100%; border-radius: 50%;">
+                <h3>Berry Tart</h3>
+                <p>Seasonal berries on custard</p>
+                <p class="price">₹249*</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" rows="5"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
     <footer>
-        <p>&copy; 2024 CakeBerries by Thas. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <p>&copy; 2025 CakeBerries by Thasneem. All rights reserved.</p>
+        <p>Email: contact@cakeberries.com | Phone: +91-7736281124</p>
     </footer>
 </body>
 </html>
